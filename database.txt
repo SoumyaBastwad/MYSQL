@@ -256,10 +256,6 @@ mysql> show databases;
 +--------------------+
 5 rows in set (0.29 sec)
 
-mysql> select *from butterfly;
-ERROR 1046 (3D000): No database selected
-mysql> select *from students;
-ERROR 1046 (3D000): No database selected
 mysql> use butterfly;
 Database changed
 mysql> select *from students;
