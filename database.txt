@@ -243,3 +243,70 @@ mysql> select * from students where address='kittur';
 |       108 | shreya    | angadi   | kittur  |   20 |
 +-----------+-----------+----------+---------+------+
 1 row in set (0.02 sec)
+
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| butterfly          |
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+5 rows in set (0.29 sec)
+
+mysql> select *from butterfly;
+ERROR 1046 (3D000): No database selected
+mysql> select *from students;
+ERROR 1046 (3D000): No database selected
+mysql> use butterfly;
+Database changed
+mysql> select *from students;
++-----------+-----------+------------+------------+------+
+| studentid | firstname | lastname   | address    | age  |
++-----------+-----------+------------+------------+------+
+|        98 | tania     | davi       | jammu      |   20 |
+|       100 | soumya    | bastwad    | bailhongal |   20 |
+|       102 | sichana   | gundakalle | goa        |   20 |
+|       105 | pinky     | badakke    | mole       |   20 |
+|       108 | shreya    | angadi     | kittur     |   20 |
++-----------+-----------+------------+------------+------+
+5 rows in set (0.02 sec)
+
+mysql> select firstname from students;
++-----------+
+| firstname |
++-----------+
+| tania     |
+| soumya    |
+| sichana   |
+| pinky     |
+| shreya    |
++-----------+
+5 rows in set (0.00 sec)
+
+mysql> select firstname,age from students;
++-----------+------+
+| firstname | age  |
++-----------+------+
+| tania     |   20 |
+| soumya    |   20 |
+| sichana   |   20 |
+| pinky     |   20 |
+| shreya    |   20 |
++-----------+------+
+5 rows in set (0.00 sec)
+
+mysql> select *from students where firstname=s
+mysql> select *from students where age=20;
++-----------+-----------+------------+------------+------+
+| studentid | firstname | lastname   | address    | age  |
++-----------+-----------+------------+------------+------+
+|        98 | tania     | davi       | jammu      |   20 |
+|       100 | soumya    | bastwad    | bailhongal |   20 |
+|       102 | sichana   | gundakalle | goa        |   20 |
+|       105 | pinky     | badakke    | mole       |   20 |
+|       108 | shreya    | angadi     | kittur     |   20 |
++-----------+-----------+------------+------------+------+
+5 rows in set (0.00 sec)
