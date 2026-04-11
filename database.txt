@@ -139,11 +139,8 @@ mysql> select upper('help4code') from dual;
 
 mysql> select rtrim('Help4code Elearning234') from dual;
 +---------------------------------+
-| rtrim('Help4code Elearning234') |
-+---------------------------------+
-| Help4code Elearning234          |
-+---------------------------------+
-1 row in set (0.00 sec)
+| rtrim('Help4code Elearning234')
+
 
 mysql> select ascii('A') from dual;
 +------------+
