@@ -1,7 +1,6 @@
 A collection of MySQL queries, database designs, and real-world problem-solving examples for practice and learning.
 Microsoft Windows [Version 10.0.19045.6466]
 (c) Microsoft Corporation. All rights reserved.
-
 C:\Users\CyberWiz>mysql -u root -p
 Enter password: ***********
 Welcome to the MySQL monitor.  Commands end with ; or \g.
