@@ -19,7 +19,6 @@ mysql> create table students(
     -> lastname varchar(225) NOT NUll,
     -> address varchar(225),
     -> age int);
-Query OK, 0 rows affected (0.14 sec)
 
 mysql> show databases;
 +--------------------+
@@ -31,7 +30,6 @@ mysql> show databases;
 | performance_schema |
 | sys                |
 +--------------------+
-5 rows in set (0.01 sec)
 
 mysql> use butterfly;
 Database changed
