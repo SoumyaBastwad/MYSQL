@@ -228,7 +228,6 @@ mysql> select * from students where address='kittur';
 +-----------+-----------+----------+---------+------+
 |       108 | shreya    | angadi   | kittur  |   20 |
 +-----------+-----------+----------+---------+------+
-1 row in set (0.02 sec)
 
 mysql> show databases;
 +--------------------+
