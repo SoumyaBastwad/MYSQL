@@ -292,3 +292,11 @@ mysql> select *from students where age=20;
 |       108 | shreya    | angadi     | kittur     |   20 |
 +-----------+-----------+------------+------------+------+
 5 rows in set (0.00 sec)
+
+mysql> select *from students;
++-----------+-----------+------------+------------+------+
+| studentid | firstname | lastname   | address    | age  |
++-----------+-----------+------------+------------+------+
+|       100 | soumya    | bastwad    | bailhongal |   20 |
+|       102 | sichana   | gundakalle | goa        |   20 |
++-----------+-----------+------------+------------+------+
