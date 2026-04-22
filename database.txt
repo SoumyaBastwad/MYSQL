@@ -42,7 +42,6 @@ mysql> show databases;
 | performance_schema |
 | sys                |
 +--------------------+
-4 rows in set (0.11 sec)
 
 mysql> insert into students (studentid,firstname,lastname,address,age)values
     -> (100,"soumya","bastwad","bailhongal",20),
