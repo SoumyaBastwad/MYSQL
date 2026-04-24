@@ -7,8 +7,7 @@ Welcome to the MySQL monitor.  Commands end with ; or \g.
 Server version: 8.0.45 MySQL Community Server - GPL
 Copyright (c) 2000, 2026, Oracle and/or affiliates.
 Oracle is a registered trademark of Oracle Corporation and/or its
-affiliates. Other names may be trademarks of their respective
-owners.
+affiliates. Other names may be trademarks of their respective owners
 
 mysql> create database butterfly;
 Query OK, 1 row affected (0.07 sec)
