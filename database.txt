@@ -296,3 +296,22 @@ mysql> select *from students;
 |       100 | soumya    | bastwad    | bailhongal |   20 |
 |       102 | sichana   | gundakalle | goa        |   20 |
 +-----------+-----------+------------+------------+------+
+
+mysql> insert into students (studentid,firstname,lastname,address,age)values
+    -> (105,"pinky","badakke","mole",20),
+    -> (108,"shreya","angadi","kittur",20),
+    -> (098,"tania","davi","jammu",20);
+Query OK, 3 rows affected (0.06 sec)
+Records: 3  Duplicates: 0  Warnings: 0
+
+mysql> select *from students;
++-----------+-----------+------------+------------+------+
+| studentid | firstname | lastname   | address    | age  |
++-----------+-----------+------------+------------+------+
+|        98 | tania     | davi       | jammu      |   20 |
+|       100 | soumya    | bastwad    | bailhongal |   20 |
+|       102 | sichana   | gundakalle | goa        |   20 |
+|       105 | pinky     | badakke    | mole       |   20 |
+|       108 | shreya    | angadi     | kittur     |   20 |
++-----------+-----------+------------+------------+------+
+5 rows in set (0.01 sec)
